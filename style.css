@@ -1,9 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .box1{
   width: 650px;
   height: 300px;
    border-radius: 20px;
   background: linear-gradient(135deg, #5c33f1 0%, #942cfb 100%);
-
+padding-left: 20px;
 display: flex;
 color: white;
 padding-left: 20px;
@@ -12,20 +18,37 @@ overflow: hidden;
 }
 
 .box1-img{
-width:70%;
+width:100%;
 padding-left: 100px;
-padding-top: 10px;
+margin-bottom: 10px;
+}
+
+.h1{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-weight: lighter;
 }
 
 .box1 p{
     font-size: 14px;
+    color: rgba(255, 255, 255, 0.664);
 }
 
 .gg{
  background: linear-gradient(135deg, #15a3d7 0%, #942cfb 100%);
 }
 
-.box1 button{
+.btn1{
+    padding: 2px 5px;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 20px;
+    margin-top: 10px;
+   
+    color: white;
+}
+
+.btn2{
     padding: 10px 15px;
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.462);
